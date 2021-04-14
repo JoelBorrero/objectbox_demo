@@ -1,0 +1,76 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7580165345214755832",
+      "lastPropertyId": "4:8839130426312332450",
+      "name": "Estudiante",
+      "properties": [
+        {
+          "id": "1:9012412212245961744",
+          "name": "nombre",
+          "type": 9
+        },
+        {
+          "id": "2:6865316475203650183",
+          "name": "carrera",
+          "type": 9
+        },
+        {
+          "id": "3:1472956645818649084",
+          "name": "semestre",
+          "type": 6
+        },
+        {
+          "id": "4:8839130426312332450",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:5595268251112011150",
+      "lastPropertyId": "4:4448235051762333008",
+      "name": "Materia",
+      "properties": [
+        {
+          "id": "1:1291961005057248540",
+          "name": "nombre",
+          "type": 9
+        },
+        {
+          "id": "2:4691394791254828554",
+          "name": "nrc",
+          "type": 9
+        },
+        {
+          "id": "3:2213002813247228906",
+          "name": "creditos",
+          "type": 6
+        },
+        {
+          "id": "4:4448235051762333008",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:5595268251112011150",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
