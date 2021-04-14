@@ -7,7 +7,7 @@ import 'objectbox.g.dart';
 
 Store store;
 
-void load() async {
+Future<void> load() async {
   await getApplicationDocumentsDirectory().then((Directory dir) {
     store = Store(getObjectBoxModel(), directory: dir.path + '/objectbox');
   });
