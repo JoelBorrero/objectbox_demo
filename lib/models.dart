@@ -17,10 +17,3 @@ class Materia {
   int id;
   Materia({this.nombre, this.nrc, this.creditos});
 }
-
-@Entity()
-class Ejemplo {
-  String titulo;
-  int id;
-  Ejemplo({this.titulo});
-}
